@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD20F224-F4F7-4DB1-94B0-0E7E4019B33C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jade.UI</RootNamespace>
+    <AssemblyName>Jade.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code\JSkin.cs" />
+    <Compile Include="code\Effect.cs" />
+    <Compile Include="code\GraphicsPathHelper.cs" />
+    <Compile Include="code\ImageDrawRect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="code\InvokeHelper.cs" />
+    <Compile Include="code\JOption.cs" />
+    <Compile Include="code\JSkinManage.cs" />
+    <Compile Include="code\ResourceHelper.cs" />
+    <Compile Include="code\RoundStyle.cs" />
+    <Compile Include="code\System.cs" />
+    <Compile Include="control\Ball.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JApp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JApp.Designer.cs">
+      <DependentUpon>JApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JVScroll.cs" />
+    <Compile Include="control\JIconListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JIconListView.Designer.cs">
+      <DependentUpon>JIconListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JImageListPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="control\JlistView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JScrollbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JComboBoxGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JLeableTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JLeableTextBox.Designer.cs">
+      <DependentUpon>JLeableTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JPromptTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JPromptTextBox.Designer.cs">
+      <DependentUpon>JPromptTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JSwitchButton .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\Popup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\Test.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JProgressBar.Designer.cs">
+      <DependentUpon>JProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JLable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JListViewOld.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JListViewOld.Designer.cs">
+      <DependentUpon>JListViewOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control\JToobarItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\JToobarItem.Designer.cs">
+      <DependentUpon>JToobarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="code\JControl.cs" />
+    <Compile Include="control\JToolStripDropDown.cs" />
+    <Compile Include="control\JRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JSliderBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="control\JSliderBar.Designer.cs">
+      <DependentUpon>JSliderBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\BackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\BackForm.Designer.cs">
+      <DependentUpon>BackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\JMsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\JMsgBox.Designer.cs">
+      <DependentUpon>JMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\shadow\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\shadow\FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\shadow\FormShadow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\shadow\FormShadow.designer.cs">
+      <DependentUpon>FormShadow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\shadow\Win32.cs" />
+    <Compile Include="form\SkinSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\SkinSet.Designer.cs">
+      <DependentUpon>SkinSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helper\Jkey.cs" />
+    <Compile Include="helper\WinIO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="code\RenderHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_bg.png" />
+    <EmbeddedResource Include="control\JApp.resx">
+      <DependentUpon>JApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\JLeableTextBox.resx">
+      <DependentUpon>JLeableTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\JSwitchButton .resx">
+      <DependentUpon>JSwitchButton .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\JToobarItem.resx">
+      <DependentUpon>JToobarItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\BackForm.resx">
+      <DependentUpon>BackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\JMsgBox.resx">
+      <DependentUpon>JMsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\shadow\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\shadow\FormShadow.resx">
+      <DependentUpon>FormShadow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\SkinSet.resx">
+      <DependentUpon>SkinSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="rec\btn_bg_2.png" />
+    <None Include="rec\btn_hover.png" />
+    <None Include="rec\btn_normal.png" />
+    <None Include="key.snk" />
+    <None Include="rec\main_light_bkg_top123.png" />
+    <None Include="rec\msgbox_error.png" />
+    <None Include="rec\msgbox_info.png" />
+    <None Include="rec\msgbox_question.png" />
+    <None Include="rec\msgbox_success.png" />
+    <None Include="rec\msgbox_warning.png" />
+    <None Include="rec\psd\close.psd" />
+    <None Include="rec\psd\max.psd" />
+    <None Include="rec\psd\menu.psd" />
+    <None Include="rec\psd\min.psd" />
+    <None Include="rec\psd\skin.psd" />
+    <None Include="rec\shadow_bkg.png" />
+    <None Include="rec\tip_1.jpg" />
+    <None Include="rec\tip_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="control\JPromptTextBox.resx">
+      <DependentUpon>JPromptTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\JProgressBar.resx">
+      <DependentUpon>JProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\JListViewOld.resx">
+      <DependentUpon>JListViewOld.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_close_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_max_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_max_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_mini_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\btn_mini_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\naozhong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\All_logo16.ico" />
+    <None Include="rec\qieicon.png" />
+    <None Include="rec\tips_close_h.png" />
+    <None Include="rec\tips_close_h_23.png" />
+    <None Include="rec\tips_close_n.png" />
+    <None Include="rec\tips_close_n_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\toggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rec\sysbtn_min_normal.png" />
+    <None Include="rec\sysbtn_close_normal.png" />
+    <None Include="rec\sysbtn_max_normal.png" />
+    <None Include="rec\sysbtn_menu_normal.png" />
+    <None Include="rec\sysbtn_skin_normal.png" />
+    <Content Include="rec\bubbleTip_close_d.png" />
+    <Content Include="Resources\sysbtn_close_normal.png" />
+    <Content Include="Resources\sysbtn_max_normal.png" />
+    <Content Include="Resources\sysbtn_min_normal.png" />
+    <None Include="rec\ScrollBar\scrollbar_hover.png" />
+    <None Include="rec\ScrollBar\scrollbar_normal.png" />
+    <Content Include="rec\bg\bg01.png" />
+    <Content Include="rec\bg\bg02.png" />
+    <Content Include="rec\bg\bg03.jpg" />
+    <None Include="rec\bg\bg03.png" />
+    <Content Include="rec\bg\bg04.png" />
+    <Content Include="rec\bg\bg05.png" />
+    <Content Include="rec\bg\bg06.png" />
+    <Content Include="rec\bg\bg07.png" />
+    <Content Include="rec\bg\bg08.png" />
+    <Content Include="rec\public_btn_close.png" />
+    <Content Include="rec\public_btn_min.png" />
+    <Content Include="rec\sys\btn_close1.png" />
+    <Content Include="rec\sys\btn_close2.png" />
+    <Content Include="rec\sys\btn_close3.png" />
+    <Content Include="rec\sys\btn_close4.png" />
+    <Content Include="rec\sys\btn_feedback_1.png" />
+    <Content Include="rec\sys\btn_feedback_2.png" />
+    <Content Include="rec\sys\btn_feedback_3.png" />
+    <Content Include="rec\sys\btn_feedback_4.png" />
+    <Content Include="rec\sys\btn_max1.png" />
+    <Content Include="rec\sys\btn_max2.png" />
+    <Content Include="rec\sys\btn_max3.png" />
+    <Content Include="rec\sys\btn_max4.png" />
+    <Content Include="rec\sys\btn_menu_1.png" />
+    <Content Include="rec\sys\btn_menu_2.png" />
+    <Content Include="rec\sys\btn_menu_3.png" />
+    <Content Include="rec\sys\btn_menu_4.png" />
+    <Content Include="rec\sys\btn_min1.png" />
+    <Content Include="rec\sys\btn_min2.png" />
+    <Content Include="rec\sys\btn_min3.png" />
+    <Content Include="rec\sys\btn_min4.png" />
+    <Content Include="rec\sys\btn_skin_1.png" />
+    <Content Include="rec\sys\btn_skin_2.png" />
+    <Content Include="rec\sys\btn_skin_3.png" />
+    <Content Include="rec\sys\btn_skin_4.png" />
+    <Content Include="rec\sys\cloudstatuserror.png" />
+    <Content Include="rec\sys\cloudstatusok.png" />
+    <Content Include="rec\sys\loading.gif" />
+    <Content Include="rec\sys\tips_away.png" />
+    <Content Include="rec\sys\tips_mute.png" />
+    <Content Include="rec\sys\tips_success.png" />
+    <Content Include="rec\sys\tips_warning.png" />
+    <Content Include="rec\tip.ico" />
+    <None Include="rec\shadow_bg.png" />
+    <Content Include="rec\dt.ico" />
+    <None Include="Resources\bkg.png" />
+    <None Include="rec\sys\form_bg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

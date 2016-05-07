@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Jade UI 只为快速开发</title>
+	<meta name="Title" content="Jade UI">
+	<meta name="Author" content="Jaly">
+	<meta name="Subject" content="Jade UI 桌面应用框架">
+	<meta name="Description" content="一个轻量级的桌面应用前端框架，只为快速开发！">
+	<meta name="Keywords" content="Jade UI ,WinForm,C#,开发框架,.Net">
+	<meta name="Generator" content="Html">
+	<meta name="Language" content="zh-CN">
+	<meta name="Expires" content="Wed, 27 Sep 2080 08:21:57 GMT">
+	<meta name="Abstract" content="Meta 标签生成器">
+	<meta name="Copyright" content="?dcdlove@qq.com">
+	<meta name="Designer" content="jaly">
+	<meta name="Publisher" content="jaly">
+	<meta name="Revisit-After" content="请在此输入标题，Meta 标签生成器 Days">
+	<meta name="Distribution" content="Global">
+	<meta name="Robots" content="No Follow">
+	<link href="css/materialize.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="script/materialize.js" type="text/javascript"></script>
+	<style type="text/css">
+		main { background: #2BA3D4 url('http://fedora.or.id/bg_teaser.svg') no-repeat center center; }
+		
+		.banner { background-size: cover; background-position: center; position: relative; min-height: 260px; }
+		.banner p { text-align: center; color: #fff; }
+		.banner span { font-size: 5vw; font-weight: bolder; }
+		.banner .name { font-weight: 100; }
+		.site-footer { background-color: #34495e; width: 100%; height: auto; }
+		
+		.copyright-footer { color: #FFF; text-align: center; }
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<header>
+     
+	 </header>
+	<main>
+		<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="banner">
+					<p><span class="name">Jade</span><span> UI</span> </p>
+					<p>一个轻量级的桌面应用前端框架，只为快速开发！ </p>
+					
+					<div class="progress indigo lighten-5 z-depth-2">
+					<div class="indeterminate green accent-4 "></div>
+					</div>
+					<p>
+					<a class="waves-effect waves-light btn-large light-blue lighten-2" href="http://pan.baidu.com/s/1bnc8WKf" target="_blank"><i class="mdi-file-cloud-download left"></i>立即下载 1.0.0</a>
+					</p>
+				</div>
+			</div>
+		
+		</div>
+		<div class="row">
+        <div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992540112728.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div>
+		<div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992611371197.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div>
+		<div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992684254963.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div>
+		<div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992474605597.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992713147568.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div> 
+		<div class="col s4 m4">
+          <div class="card ">
+            <div class="card-image">
+              <img src="http://cc.cocimg.com/api/uploads/20150923/1442992646221147.gif">
+              <span class="card-title">基础组件 </span>
+            </div>
+            <div class="card-content">
+              <p>一些常用的控件使用展示。</p>
+            </div>
+            <div class="card-action">
+              <a href="#">查看演示</a>
+            </div>
+          </div>
+        </div>  
+			<div class="col s12">
+				<div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
+					<a class="btn-floating btn-large red"><i class="large mdi-navigation-menu"></i></a>
+					<ul>
+						<li>
+							<a class="btn-floating red"><i class="material-icons"></i></a></li>
+						<li>
+							<a class="btn-floating yellow darken-1"><i class="material-icons"></i></a></li>
+						<li>
+							<a class="btn-floating green"><i class="material-icons"></i></a></li>
+						<li>
+							<a class="btn-floating blue"><i class="material-icons"></i></a></li>
+					</ul>
+				</div>
+			</div>
+      </div>
+	  
+	</div>
+	 </main>
+	<footer class="site-footer">
+		<div class="row">
+					<div class="col s12">
+						<p class="copyright-footer">© 2015-2100 Jade UI @Jaly</p>
+					</div>
+					
+				</div>
+	</footer>
+</body>
+</html>
